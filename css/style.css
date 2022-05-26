@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap');
 .eff{
     overflow: hidden;
+    font-family: 'Poppins', sans-serif;
 }
 .landing{
     height: 100vh;
@@ -53,7 +55,7 @@
 }
  .nav-link::before{
     content: "" ;
-    background-color: #0c2533;
+    background-color: #fff;
     width: 100%;
     position: absolute;
     height: 4px;
@@ -92,6 +94,7 @@ background-color: #fff;
     text-align: center;
     padding-bottom: 20px;
 }
+
 .serv p{
     color: #666;
 }
@@ -178,9 +181,53 @@ position: relative;
 }
 .about p{
     font-size: 18px;
-  color: #666;
+  color: #666; 
     text-align: center;
 }
+.contact{
+    padding: 50px 0px;
+    background-color: #ececec;
+}
+.contact h1{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.contact p{
+    text-align: center;
+    color: #666;
+}
+
+  .contact form .btnn{
+    width: 100%;
+    /* margin-left: 5px; */
+    display: block;
+    background-color: rgba(82,78,78,0.7);
+    color: aliceblue;
+    border-radius: 0;
+    border: none;
+    padding: 10px;
+  
+  }
+  .contact form input[type="text"],.contact form textarea,.contact form .btn{
+    background-color: rgba(82,78,78,0.7);
+    color: aliceblue;
+    border-radius: 0;
+    margin: 9px 0px;
+    
+  }
+  .contact form input[type="text"]{
+  
+    padding: 10px;
+  }
+  .contact form textarea::placeholder{
+    color: white;
+  }
+  .contact form textarea:focus{
+    background-color: rgba(82,78,78,0.7);
+  }
+  .contact form input[type="text"]::placeholder{
+    color: white;
+  }
 /*Start Footer*/
 .footer{
     padding: 20px 0;
